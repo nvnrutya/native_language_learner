@@ -1,78 +1,49 @@
-Native Language Learner 🌍📚
-A language learning web platform designed to help preserve and promote native languages.
-Built with a simple yet engaging interface, it enables users to learn, practice, and track progress in their chosen language.
+# Native Language Learner 🌏
 
-🚀 Features
-Interactive Word Display – Shows words/phrases in the target language.
+**Native Language Learner** is a web platform designed to help preserve and promote native languages.  
+It enables users to learn, practice, and track progress in their chosen language through interactive lessons, vocabulary, and quizzes.
 
-Progress Tracking – Keeps a record of your learning journey.
+---
 
-Responsive Design – Works seamlessly on desktop and mobile.
+## 🚀 Features
 
-Audio Pronunciation (TTS) – Uses Text-to-Speech APIs for accurate pronunciation.
+- **User Authentication** — Secure login & signup
+- **Language Lessons** — Structured lessons for native language learning
+- **Progress Tracking** — Track learning history & achievements
+- **Responsive UI** — Works seamlessly across devices
+- **Text-to-Speech Integration** — Hear correct pronunciation
+- **MongoDB Database** — Store user progress, words, and settings
 
-User Authentication – Secure sign-up and login system.
+---
 
-Dynamic Content Loading – AJAX for smooth learning experience.
+## 🛠️ Tech Stack
 
-🛠️ Tech Stack
-Frontend:
+**Frontend:**
+- HTML5, CSS3, JavaScript  
+- Responsive & interactive UI design
 
-HTML5, CSS3, JavaScript (Vanilla)
+**Backend:**
+- Node.js, Express.js  
+- REST API for user data & lessons
 
-Responsive design for mobile compatibility
+**Database:**
+- MongoDB for efficient data storage
 
-Backend:
+**Additional:**
+- API integration for Text-to-Speech
+- AJAX for dynamic content loading
 
-Node.js, Express.js
+---
 
-MongoDB for database storage
+## 📂 Project Structure
 
-APIs & Services:
-
-Text-to-Speech API for pronunciation
-
-LocalStorage for optional offline progress
-
-📂 Project Structure
-csharp
-Copy
-Edit
+```plaintext
 native_language_learner/
 │
-├── public/         # Static files (HTML, CSS, JS)
-├── routes/         # Express routes
-├── models/         # MongoDB schemas
-├── app.js          # Server entry point
-├── package.json    # Project dependencies
-└── README.md       # Project documentation
-⚡ Installation & Setup
-Clone the repository
+├── public/             # Static files (HTML, CSS, JS)
+├── routes/             # Express route handlers
+├── models/             # MongoDB schemas
+├── views/              # HTML templates
+├── package.json        # Project metadata & dependencies
+└── README.md           # Project documentation
 
-bash
-Copy
-Edit
-git clone https://github.com/nvnrutya/native_language_learner.git
-cd native_language_learner
-Install dependencies
-
-bash
-Copy
-Edit
-npm install
-Configure environment variables
-
-Create a .env file in the root directory and add:
-
-ini
-Copy
-Edit
-PORT=5000
-MONGODB_URI=your_mongodb_connection_string
-Run the application
-
-bash
-Copy
-Edit
-npm start
-Open http://localhost:5000 in your browser.
